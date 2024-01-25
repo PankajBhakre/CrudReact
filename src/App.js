@@ -1,12 +1,12 @@
 import './App.css';
-import Function from './components/Function.js'
-import Class from './components/Class.js'
+import Functionprops from './components/Functionprops.js'
+import Classprops from './components/Classprops.js'
 
 function App() {
   return (
     <div className="App">
-      <Function></Function>
-      <Class></Class>
+      <Functionprops name="Props"></Functionprops>
+      <Classprops name="Props"></Classprops>
     </div>
   );
 }
